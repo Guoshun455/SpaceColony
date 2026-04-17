@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="#FFFFFF"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:gravity="center_vertical">
+
+
+        <View
+            android:id="@+id/color_indicator"
+            android:layout_width="8dp"
+            android:layout_height="64dp"
+            android:background="#2196F3"
+            android:layout_marginEnd="12dp" />
+
+
+        <ImageView
+            android:id="@+id/crew_image"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@android:drawable/ic_menu_help"
+            android:layout_marginEnd="12dp" />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/crew_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crew Name"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+
+            <TextView
+                android:id="@+id/crew_specialization"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Specialization"
+                android:textSize="12sp"
+                android:textColor="#666666"
+                android:layout_marginBottom="4dp" />
+
+
+            <TextView
+                android:id="@+id/crew_stats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stats"
+                android:textSize="11sp"
+                android:textColor="#333333"
+                android:fontFamily="monospace" />
+
+
+            <TextView
+                android:id="@+id/crew_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:textSize="10sp"
+                android:textColor="#999999"
+                android:layout_marginTop="2dp" />
+
+
+            <TextView
+                android:id="@+id/status_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/personal_stats_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="end"
+            android:layout_marginStart="8dp"
+            android:padding="4dp">
+
+
+            <TextView
+                android:id="@+id/personal_missions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Missions: 0"
+                android:textSize="11sp"
+                android:textColor="#333333"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/personal_victories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wins: 0"
+                android:textSize="11sp"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp" />
+
+
+            <TextView
+                android:id="@+id/personal_training"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Training: 0"
+                android:textSize="11sp"
+                android:textColor="#2196F3"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp" />
+
+        </LinearLayout>
+
+
+        <CheckBox
+            android:id="@+id/crew_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

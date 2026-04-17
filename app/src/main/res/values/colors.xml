@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1A1A2E</color>
+    <color name="colorPrimaryDark">#16213E</color>
+    <color name="colorAccent">#E94560</color>
+    <color name="background_dark">#1A1A2E</color>
+    <color name="card_background">#16213E</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#A0A0A0</color>
+    <color name="pilot_blue">#2196F3</color>
+    <color name="engineer_yellow">#FFEB3B</color>
+    <color name="medic_green">#4CAF50</color>
+    <color name="scientist_purple">#9C27B0</color>
+    <color name="soldier_red">#F44336</color>
+    <color name="green">#00FF00</color>
+    <color name="dark_green">#2E7D32</color>
+    <color name="light_green">#44FF44</color>
+    <color name="red">#FF4444</color>
+    <color name="gray">#888888</color>
+    <color name="dark_gray">#424242</color>
+    <color name="brown">#3E2723</color>
+</resources>

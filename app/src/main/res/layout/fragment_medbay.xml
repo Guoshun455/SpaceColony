@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1A1A2E"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🏥 MEDBAY"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FF9800"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Defeated crew recover here (exp penalty applies)"
+        android:textSize="12sp"
+        android:textColor="#A0A0A0"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/empty_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No crew in medbay"
+        android:textSize="16sp"
+        android:textColor="#666666"
+        android:gravity="center"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_medbay"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_heal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HEAL &amp; RETURN TO QUARTERS"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:enabled="false" />
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Space Colony</string>
+    <string name="title_home">Home</string>
+    <string name="title_quarters">Quarters</string>
+    <string name="title_simulator">Simulator</string>
+    <string name="title_mission">Mission</string>
+    <string name="title_stats">Stats</string>
+    <string name="recruit_crew">Recruit Crew</string>
+    <string name="launch_mission">Launch Mission</string>
+    <string name="train">Train</string>
+    <string name="save_game">Save Game</string>
+    <string name="load_game">Load Game</string>
+</resources>
